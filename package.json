@@ -31,7 +31,8 @@
     "module-alias": "^2.1.0",
     "morgan": "^1.9.1",
     "reflect-metadata": "^0.1.12",
-    "response-time": "^2.3.2"
+    "response-time": "^2.3.2",
+    "string-compare": "^1.1.2"
   },
   "devDependencies": {
     "@types/bunyan": "^1.8.5",
