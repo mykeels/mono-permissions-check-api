@@ -6,7 +6,7 @@ export default function (req: Request, res: Response, next: NextFunction) {
   res.send = function (body?: any) {
     const _body = body instanceof Buffer ? body.toString() : body;
     res.body = _body;
-    console.log(res);
+    console.log(res.body);
     return send.call(this, body);
   };
   next();

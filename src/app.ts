@@ -9,7 +9,7 @@ import container from './ioc';
 import logRequestMiddleware from './middleware/log-request.middleware';
 import jsendMiddleware from './middleware/jsend.middleware';
 import logResponseMiddleware from './middleware/log-response.middleware';
-import { version } from "../../package.json";
+import { version } from "../package.json";
 
 export default class App {
   private server: InversifyExpressServer;
